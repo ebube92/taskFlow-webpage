@@ -1,5 +1,11 @@
+import Features from "./components/features.jsx";
 import Header from "./components/header.jsx";
 
 export default function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Features />
+    </>
+  );
 }
