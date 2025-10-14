@@ -7,7 +7,7 @@ export default function Header() {
         <p className="font-logo text-2xl">taskFlow</p>
       </div>
 
-      <div className="mt-16 w-full flex flex-col-reverse gap-4 lg:flex-row items-center px-10 md:px-16">
+      <div className="mt-16 w-full max-w-7xl mx-auto flex flex-col-reverse gap-4 lg:flex-row items-center px-10 md:px-16">
         <div className="flex flex-col items-start justify-start space-y-6 w-full lg:w-1/2">
           <h2 className=" text-4xl lg:text-6xl w-full lg:w-[80%] font-outfit font-bold">
             Organize your tasks with ease and clarity
