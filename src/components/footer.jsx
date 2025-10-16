@@ -6,13 +6,11 @@ export default function Footer() {
   return (
     <footer className="bg-gray-50 text-gray-700 py-10 mt-10 font-outfit border-t border-gray-200">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
-        {/* Logo & tagline */}
         <div className="flex flex-col items-center md:items-start">
           <h3 className="text-2xl font-bold font-logo mb-2 text-black">taskFlow</h3>
           <p className="text-sm text-gray-500">Organize. Focus. Achieve.</p>
         </div>
 
-        {/* Quick Links */}
         <div className="flex flex-col items-center md:items-start">
           <h4 className="font-semibold mb-2">Quick Links</h4>
           <ul className="space-y-1">
@@ -34,11 +32,9 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Socials */}
         <div className="flex flex-col items-center md:items-start">
           <h4 className="font-semibold mb-2">Follow Us</h4>
           <div className="flex space-x-2">
-            {/* Replace # with your social links and add SVGs or images as needed */}
             <a
               href="#"
               aria-label="Twitter"
