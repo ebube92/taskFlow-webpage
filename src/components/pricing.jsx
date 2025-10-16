@@ -25,7 +25,7 @@ const plans = [
 export default function Pricing() {
   return (
     <div className="w-full bg-gray-50">
-      <section className="min-h-[60vh] px-6 lg:px-16 w-full lg:w-[70%] mx-auto py-10 font-outfit flex flex-col items-center">
+      <section className="min-h-[70vh] px-6 lg:px-16 w-full lg:w-[70%] mx-auto py-10 font-outfit flex flex-col items-center">
         <h2 className="text-4xl font-bold text-center">
           Choose the plan that fits your needs
         </h2>

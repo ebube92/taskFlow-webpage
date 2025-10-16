@@ -2,7 +2,7 @@ import taskImage from "../assets/task-image.jpg";
 
 export default function Header() {
   return (
-    <div className="bg-gray-50 min-h-[80vh] lg:min-h-screen flex flex-col lg:flex-row">
+    <div className="bg-gray-50 min-h-[80vh] flex flex-col lg:flex-row">
       <div className="fixed top-0 left-0 w-full h-16 bg-white border-b border-gray-200 flex items-center px-4 border-1 ">
         <p className="font-logo text-2xl">taskFlow</p>
       </div>

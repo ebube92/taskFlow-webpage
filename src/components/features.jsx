@@ -27,7 +27,7 @@ const features = [
 export default function Features() {
   return (
     <div className="w-full bg-gray-50">
-      <section className="min-h-[50vh] px-4 lg:px-16 w-full lg:w-[70%] mx-auto py-10 font-outfit flex flex-col items-center">
+      <section className="min-h-[70vh] px-4 lg:px-16 w-full lg:w-[70%] mx-auto py-10 font-outfit flex flex-col items-center">
         <h2 className="text-4xl font-bold text-center">Why choose taskFlow?</h2>
         <div className="flex flex-col md:flex-row gap-6 justify-between items-stretch mt-6 px-4 md:px-16">
           {features.map((item) => (
