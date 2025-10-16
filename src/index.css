@@ -6,8 +6,6 @@
     --color-button: #c7c7c7;
 }
 
-@layer components {
-    .highlight {
-        @apply bg-gray-700
-    }
+.highlight {
+    @apply bg-gray-50 border-gray-400 shadow-lg scale-105;
 }

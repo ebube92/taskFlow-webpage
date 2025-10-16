@@ -26,7 +26,7 @@ const testimonials = [
 export default function Testimonials() {
     return (
         <div className="w-full bg-gray-50">
-            <section className="min-h-[70vh] px-6 lg:px-16 w-full lg:w-[70%] mx-auto py-10 font-outfit flex flex-col items-center">
+            <section className="min-h-[60vh] px-6 lg:px-16 w-full lg:w-[70%] mx-auto py-10 font-outfit flex flex-col items-center">
                 <h2 className="text-4xl font-bold text-center">What our users say</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-between items-stretch mt-6 px-4 w-full">
                     {testimonials.map((item, index) => (
